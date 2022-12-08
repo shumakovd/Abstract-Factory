@@ -8,14 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		84130A3629410416000517FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84130A3529410416000517FB /* AppDelegate.swift */; };
-		84130A3829410416000517FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84130A3729410416000517FB /* SceneDelegate.swift */; };
-		84130A3A29410416000517FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84130A3929410416000517FB /* ViewController.swift */; };
 		84130A3D29410416000517FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84130A3B29410416000517FB /* Main.storyboard */; };
 		84130A3F29410418000517FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84130A3E29410418000517FB /* Assets.xcassets */; };
 		84130A4229410418000517FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84130A4029410418000517FB /* LaunchScreen.storyboard */; };
 		84130A4D29410419000517FB /* Abstract_FactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84130A4C29410419000517FB /* Abstract_FactoryTests.swift */; };
 		84130A5729410419000517FB /* Abstract_FactoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84130A5629410419000517FB /* Abstract_FactoryUITests.swift */; };
 		84130A5929410419000517FB /* Abstract_FactoryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84130A5829410419000517FB /* Abstract_FactoryUITestsLaunchTests.swift */; };
+		84130A6B29410467000517FB /* AbstractFactoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84130A6A29410467000517FB /* AbstractFactoryVC.swift */; };
+		84130A6E29410512000517FB /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84130A6D29410512000517FB /* AbstractFactory.swift */; };
+		84130A7129410545000517FB /* ConcreteFactory1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84130A7029410545000517FB /* ConcreteFactory1.swift */; };
+		84130A73294111FE000517FB /* ConcreteFactory2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84130A72294111FE000517FB /* ConcreteFactory2.swift */; };
+		84130A7629411229000517FB /* AbstractProductA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84130A7529411229000517FB /* AbstractProductA.swift */; };
+		84130A7929411283000517FB /* ConcreteProductA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84130A7829411283000517FB /* ConcreteProductA1.swift */; };
+		84130A7B29411290000517FB /* ConcreteProductA2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84130A7A29411290000517FB /* ConcreteProductA2.swift */; };
+		84130A7D294112A9000517FB /* AbstractProductB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84130A7C294112A9000517FB /* AbstractProductB.swift */; };
+		84130A83294113E7000517FB /* ConcreteProductB1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84130A82294113E7000517FB /* ConcreteProductB1.swift */; };
+		84130A8529411413000517FB /* ConcreteProductB2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84130A8429411413000517FB /* ConcreteProductB2.swift */; };
+		846A54B82941EB0300A64B3D /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A54B72941EB0300A64B3D /* Client.swift */; };
+		846A54BB2941EBD900A64B3D /* AuthViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A54BA2941EBD900A64B3D /* AuthViewFactory.swift */; };
+		846A54BD2941EBE900A64B3D /* StudentAuthViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A54BC2941EBE900A64B3D /* StudentAuthViewFactory.swift */; };
+		846A54BF2941EBF900A64B3D /* TeacherAuthViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A54BE2941EBF900A64B3D /* TeacherAuthViewFactory.swift */; };
+		846A54C22941EC1C00A64B3D /* AuthType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A54C12941EC1C00A64B3D /* AuthType.swift */; };
+		846A54C42941EC2A00A64B3D /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A54C32941EC2A00A64B3D /* AuthView.swift */; };
+		846A54C72941EC6200A64B3D /* StudentSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A54C62941EC6200A64B3D /* StudentSignUpView.swift */; };
+		846A54C92941EC7300A64B3D /* StudentLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A54C82941EC7300A64B3D /* StudentLoginView.swift */; };
+		846A54CB2941EC8500A64B3D /* TeacherSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A54CA2941EC8500A64B3D /* TeacherSignUpView.swift */; };
+		846A54CD2941ECA000A64B3D /* TeacherLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A54CC2941ECA000A64B3D /* TeacherLoginView.swift */; };
+		846A54D02941ECC700A64B3D /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A54CF2941ECC700A64B3D /* AuthViewController.swift */; };
+		846A54D42941ECFB00A64B3D /* StudentAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A54D32941ECFB00A64B3D /* StudentAuthViewController.swift */; };
+		846A54D72941ED2300A64B3D /* TeacherAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A54D62941ED2300A64B3D /* TeacherAuthViewController.swift */; };
+		846A54DB2941ED5C00A64B3D /* ClientCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A54DA2941ED5C00A64B3D /* ClientCode.swift */; };
+		846A54DE2941EE4A00A64B3D /* info.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 846A54DD2941EE4A00A64B3D /* info.rtfd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +61,6 @@
 /* Begin PBXFileReference section */
 		84130A3229410416000517FB /* Abstract Factory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Abstract Factory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84130A3529410416000517FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84130A3729410416000517FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84130A3929410416000517FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84130A3C29410416000517FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84130A3E29410418000517FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84130A4129410418000517FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +70,31 @@
 		84130A5229410419000517FB /* Abstract FactoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Abstract FactoryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84130A5629410419000517FB /* Abstract_FactoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abstract_FactoryUITests.swift; sourceTree = "<group>"; };
 		84130A5829410419000517FB /* Abstract_FactoryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abstract_FactoryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84130A6A29410467000517FB /* AbstractFactoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryVC.swift; sourceTree = "<group>"; };
+		84130A6D29410512000517FB /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
+		84130A7029410545000517FB /* ConcreteFactory1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteFactory1.swift; sourceTree = "<group>"; };
+		84130A72294111FE000517FB /* ConcreteFactory2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteFactory2.swift; sourceTree = "<group>"; };
+		84130A7529411229000517FB /* AbstractProductA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractProductA.swift; sourceTree = "<group>"; };
+		84130A7829411283000517FB /* ConcreteProductA1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteProductA1.swift; sourceTree = "<group>"; };
+		84130A7A29411290000517FB /* ConcreteProductA2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteProductA2.swift; sourceTree = "<group>"; };
+		84130A7C294112A9000517FB /* AbstractProductB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractProductB.swift; sourceTree = "<group>"; };
+		84130A82294113E7000517FB /* ConcreteProductB1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteProductB1.swift; sourceTree = "<group>"; };
+		84130A8429411413000517FB /* ConcreteProductB2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteProductB2.swift; sourceTree = "<group>"; };
+		846A54B72941EB0300A64B3D /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		846A54BA2941EBD900A64B3D /* AuthViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewFactory.swift; sourceTree = "<group>"; };
+		846A54BC2941EBE900A64B3D /* StudentAuthViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentAuthViewFactory.swift; sourceTree = "<group>"; };
+		846A54BE2941EBF900A64B3D /* TeacherAuthViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherAuthViewFactory.swift; sourceTree = "<group>"; };
+		846A54C12941EC1C00A64B3D /* AuthType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthType.swift; sourceTree = "<group>"; };
+		846A54C32941EC2A00A64B3D /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		846A54C62941EC6200A64B3D /* StudentSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentSignUpView.swift; sourceTree = "<group>"; };
+		846A54C82941EC7300A64B3D /* StudentLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentLoginView.swift; sourceTree = "<group>"; };
+		846A54CA2941EC8500A64B3D /* TeacherSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherSignUpView.swift; sourceTree = "<group>"; };
+		846A54CC2941ECA000A64B3D /* TeacherLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherLoginView.swift; sourceTree = "<group>"; };
+		846A54CF2941ECC700A64B3D /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		846A54D32941ECFB00A64B3D /* StudentAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentAuthViewController.swift; sourceTree = "<group>"; };
+		846A54D62941ED2300A64B3D /* TeacherAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherAuthViewController.swift; sourceTree = "<group>"; };
+		846A54DA2941ED5C00A64B3D /* ClientCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientCode.swift; sourceTree = "<group>"; };
+		846A54DD2941EE4A00A64B3D /* info.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = info.rtfd; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,11 +146,12 @@
 			isa = PBXGroup;
 			children = (
 				84130A3529410416000517FB /* AppDelegate.swift */,
-				84130A3729410416000517FB /* SceneDelegate.swift */,
-				84130A3929410416000517FB /* ViewController.swift */,
-				84130A3B29410416000517FB /* Main.storyboard */,
+				84130A6829410452000517FB /* Example */,
+				84130A6729410447000517FB /* Concept */,
+				84130A662941043D000517FB /* ViewController's */,
+				84130A6529410431000517FB /* Storyboards */,
 				84130A3E29410418000517FB /* Assets.xcassets */,
-				84130A4029410418000517FB /* LaunchScreen.storyboard */,
+				846A54DC2941EE3F00A64B3D /* info */,
 				84130A4329410418000517FB /* Info.plist */,
 			);
 			path = "Abstract Factory";
@@ -125,6 +172,212 @@
 				84130A5829410419000517FB /* Abstract_FactoryUITestsLaunchTests.swift */,
 			);
 			path = "Abstract FactoryUITests";
+			sourceTree = "<group>";
+		};
+		84130A6529410431000517FB /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				84130A3B29410416000517FB /* Main.storyboard */,
+				84130A4029410418000517FB /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		84130A662941043D000517FB /* ViewController's */ = {
+			isa = PBXGroup;
+			children = (
+				846A54CE2941ECBA00A64B3D /* AuthVC */,
+				846A54D82941ED4A00A64B3D /* ClientCode */,
+				84130A6929410459000517FB /* AbstractFactoryVC */,
+			);
+			path = "ViewController's";
+			sourceTree = "<group>";
+		};
+		84130A6729410447000517FB /* Concept */ = {
+			isa = PBXGroup;
+			children = (
+				84130A6C29410509000517FB /* AbstractFactory */,
+				84130A6F29410534000517FB /* ConcreteFactories */,
+				84130A742941120F000517FB /* AbstractProducts */,
+				84130A7729411268000517FB /* ConcreteProducts */,
+				846A54B62941EAEF00A64B3D /* Client */,
+			);
+			path = Concept;
+			sourceTree = "<group>";
+		};
+		84130A6829410452000517FB /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				846A54C02941EC0E00A64B3D /* Auth */,
+				846A54B92941EBCB00A64B3D /* Factories */,
+				846A54C52941EC4D00A64B3D /* Views */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		84130A6929410459000517FB /* AbstractFactoryVC */ = {
+			isa = PBXGroup;
+			children = (
+				84130A6A29410467000517FB /* AbstractFactoryVC.swift */,
+			);
+			path = AbstractFactoryVC;
+			sourceTree = "<group>";
+		};
+		84130A6C29410509000517FB /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				84130A6D29410512000517FB /* AbstractFactory.swift */,
+			);
+			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		84130A6F29410534000517FB /* ConcreteFactories */ = {
+			isa = PBXGroup;
+			children = (
+				84130A7029410545000517FB /* ConcreteFactory1.swift */,
+				84130A72294111FE000517FB /* ConcreteFactory2.swift */,
+			);
+			path = ConcreteFactories;
+			sourceTree = "<group>";
+		};
+		84130A742941120F000517FB /* AbstractProducts */ = {
+			isa = PBXGroup;
+			children = (
+				84130A7E294112C0000517FB /* AbstractProductA */,
+				84130A7F294112C5000517FB /* AbstractProductB */,
+			);
+			path = AbstractProducts;
+			sourceTree = "<group>";
+		};
+		84130A7729411268000517FB /* ConcreteProducts */ = {
+			isa = PBXGroup;
+			children = (
+				84130A80294113CA000517FB /* ConcreteProductsA */,
+				84130A81294113D4000517FB /* ConcreteProductsB */,
+			);
+			path = ConcreteProducts;
+			sourceTree = "<group>";
+		};
+		84130A7E294112C0000517FB /* AbstractProductA */ = {
+			isa = PBXGroup;
+			children = (
+				84130A7529411229000517FB /* AbstractProductA.swift */,
+			);
+			path = AbstractProductA;
+			sourceTree = "<group>";
+		};
+		84130A7F294112C5000517FB /* AbstractProductB */ = {
+			isa = PBXGroup;
+			children = (
+				84130A7C294112A9000517FB /* AbstractProductB.swift */,
+			);
+			path = AbstractProductB;
+			sourceTree = "<group>";
+		};
+		84130A80294113CA000517FB /* ConcreteProductsA */ = {
+			isa = PBXGroup;
+			children = (
+				84130A7829411283000517FB /* ConcreteProductA1.swift */,
+				84130A7A29411290000517FB /* ConcreteProductA2.swift */,
+			);
+			path = ConcreteProductsA;
+			sourceTree = "<group>";
+		};
+		84130A81294113D4000517FB /* ConcreteProductsB */ = {
+			isa = PBXGroup;
+			children = (
+				84130A82294113E7000517FB /* ConcreteProductB1.swift */,
+				84130A8429411413000517FB /* ConcreteProductB2.swift */,
+			);
+			path = ConcreteProductsB;
+			sourceTree = "<group>";
+		};
+		846A54B62941EAEF00A64B3D /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				846A54B72941EB0300A64B3D /* Client.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		846A54B92941EBCB00A64B3D /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				846A54BA2941EBD900A64B3D /* AuthViewFactory.swift */,
+				846A54BC2941EBE900A64B3D /* StudentAuthViewFactory.swift */,
+				846A54BE2941EBF900A64B3D /* TeacherAuthViewFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		846A54C02941EC0E00A64B3D /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				846A54C12941EC1C00A64B3D /* AuthType.swift */,
+				846A54C32941EC2A00A64B3D /* AuthView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		846A54C52941EC4D00A64B3D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				846A54C62941EC6200A64B3D /* StudentSignUpView.swift */,
+				846A54C82941EC7300A64B3D /* StudentLoginView.swift */,
+				846A54CA2941EC8500A64B3D /* TeacherSignUpView.swift */,
+				846A54CC2941ECA000A64B3D /* TeacherLoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		846A54CE2941ECBA00A64B3D /* AuthVC */ = {
+			isa = PBXGroup;
+			children = (
+				846A54D12941ECDB00A64B3D /* AuthViewController */,
+				846A54D22941ECF300A64B3D /* StudentAuthViewController */,
+				846A54D52941ED1200A64B3D /* TeacherAuthViewController */,
+			);
+			path = AuthVC;
+			sourceTree = "<group>";
+		};
+		846A54D12941ECDB00A64B3D /* AuthViewController */ = {
+			isa = PBXGroup;
+			children = (
+				846A54CF2941ECC700A64B3D /* AuthViewController.swift */,
+			);
+			path = AuthViewController;
+			sourceTree = "<group>";
+		};
+		846A54D22941ECF300A64B3D /* StudentAuthViewController */ = {
+			isa = PBXGroup;
+			children = (
+				846A54D32941ECFB00A64B3D /* StudentAuthViewController.swift */,
+			);
+			path = StudentAuthViewController;
+			sourceTree = "<group>";
+		};
+		846A54D52941ED1200A64B3D /* TeacherAuthViewController */ = {
+			isa = PBXGroup;
+			children = (
+				846A54D62941ED2300A64B3D /* TeacherAuthViewController.swift */,
+			);
+			path = TeacherAuthViewController;
+			sourceTree = "<group>";
+		};
+		846A54D82941ED4A00A64B3D /* ClientCode */ = {
+			isa = PBXGroup;
+			children = (
+				846A54DA2941ED5C00A64B3D /* ClientCode.swift */,
+			);
+			path = ClientCode;
+			sourceTree = "<group>";
+		};
+		846A54DC2941EE3F00A64B3D /* info */ = {
+			isa = PBXGroup;
+			children = (
+				846A54DD2941EE4A00A64B3D /* info.rtfd */,
+			);
+			path = info;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +486,7 @@
 			files = (
 				84130A4229410418000517FB /* LaunchScreen.storyboard in Resources */,
 				84130A3F29410418000517FB /* Assets.xcassets in Resources */,
+				846A54DE2941EE4A00A64B3D /* info.rtfd in Resources */,
 				84130A3D29410416000517FB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,9 +512,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84130A3A29410416000517FB /* ViewController.swift in Sources */,
+				846A54D42941ECFB00A64B3D /* StudentAuthViewController.swift in Sources */,
+				846A54D02941ECC700A64B3D /* AuthViewController.swift in Sources */,
+				84130A6E29410512000517FB /* AbstractFactory.swift in Sources */,
+				846A54BF2941EBF900A64B3D /* TeacherAuthViewFactory.swift in Sources */,
+				84130A83294113E7000517FB /* ConcreteProductB1.swift in Sources */,
+				846A54B82941EB0300A64B3D /* Client.swift in Sources */,
+				846A54C72941EC6200A64B3D /* StudentSignUpView.swift in Sources */,
+				84130A7B29411290000517FB /* ConcreteProductA2.swift in Sources */,
+				846A54DB2941ED5C00A64B3D /* ClientCode.swift in Sources */,
+				846A54C92941EC7300A64B3D /* StudentLoginView.swift in Sources */,
+				84130A7929411283000517FB /* ConcreteProductA1.swift in Sources */,
+				84130A73294111FE000517FB /* ConcreteFactory2.swift in Sources */,
+				846A54CD2941ECA000A64B3D /* TeacherLoginView.swift in Sources */,
+				84130A7D294112A9000517FB /* AbstractProductB.swift in Sources */,
+				846A54BD2941EBE900A64B3D /* StudentAuthViewFactory.swift in Sources */,
+				84130A7129410545000517FB /* ConcreteFactory1.swift in Sources */,
+				846A54D72941ED2300A64B3D /* TeacherAuthViewController.swift in Sources */,
+				846A54BB2941EBD900A64B3D /* AuthViewFactory.swift in Sources */,
 				84130A3629410416000517FB /* AppDelegate.swift in Sources */,
-				84130A3829410416000517FB /* SceneDelegate.swift in Sources */,
+				84130A6B29410467000517FB /* AbstractFactoryVC.swift in Sources */,
+				846A54CB2941EC8500A64B3D /* TeacherSignUpView.swift in Sources */,
+				846A54C22941EC1C00A64B3D /* AuthType.swift in Sources */,
+				846A54C42941EC2A00A64B3D /* AuthView.swift in Sources */,
+				84130A8529411413000517FB /* ConcreteProductB2.swift in Sources */,
+				84130A7629411229000517FB /* AbstractProductA.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,8 +719,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,9 +727,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Abstract-Factory";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -471,8 +749,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,9 +757,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Abstract-Factory";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
