@@ -34,11 +34,11 @@
 		846A54C92941EC7300A64B3D /* StudentLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A54C82941EC7300A64B3D /* StudentLoginView.swift */; };
 		846A54CB2941EC8500A64B3D /* TeacherSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A54CA2941EC8500A64B3D /* TeacherSignUpView.swift */; };
 		846A54CD2941ECA000A64B3D /* TeacherLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A54CC2941ECA000A64B3D /* TeacherLoginView.swift */; };
-		846A54D02941ECC700A64B3D /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A54CF2941ECC700A64B3D /* AuthViewController.swift */; };
 		846A54D42941ECFB00A64B3D /* StudentAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A54D32941ECFB00A64B3D /* StudentAuthViewController.swift */; };
 		846A54D72941ED2300A64B3D /* TeacherAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A54D62941ED2300A64B3D /* TeacherAuthViewController.swift */; };
 		846A54DB2941ED5C00A64B3D /* ClientCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A54DA2941ED5C00A64B3D /* ClientCode.swift */; };
 		846A54DE2941EE4A00A64B3D /* info.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 846A54DD2941EE4A00A64B3D /* info.rtfd */; };
+		849FE3942941F21C001B33E9 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849FE3932941F21C001B33E9 /* AuthVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,11 +90,11 @@
 		846A54C82941EC7300A64B3D /* StudentLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentLoginView.swift; sourceTree = "<group>"; };
 		846A54CA2941EC8500A64B3D /* TeacherSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherSignUpView.swift; sourceTree = "<group>"; };
 		846A54CC2941ECA000A64B3D /* TeacherLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherLoginView.swift; sourceTree = "<group>"; };
-		846A54CF2941ECC700A64B3D /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		846A54D32941ECFB00A64B3D /* StudentAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentAuthViewController.swift; sourceTree = "<group>"; };
 		846A54D62941ED2300A64B3D /* TeacherAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherAuthViewController.swift; sourceTree = "<group>"; };
 		846A54DA2941ED5C00A64B3D /* ClientCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientCode.swift; sourceTree = "<group>"; };
 		846A54DD2941EE4A00A64B3D /* info.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = info.rtfd; sourceTree = "<group>"; };
+		849FE3932941F21C001B33E9 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -333,19 +333,11 @@
 		846A54CE2941ECBA00A64B3D /* AuthVC */ = {
 			isa = PBXGroup;
 			children = (
-				846A54D12941ECDB00A64B3D /* AuthViewController */,
+				849FE3922941F207001B33E9 /* AuthVC */,
 				846A54D22941ECF300A64B3D /* StudentAuthViewController */,
 				846A54D52941ED1200A64B3D /* TeacherAuthViewController */,
 			);
 			path = AuthVC;
-			sourceTree = "<group>";
-		};
-		846A54D12941ECDB00A64B3D /* AuthViewController */ = {
-			isa = PBXGroup;
-			children = (
-				846A54CF2941ECC700A64B3D /* AuthViewController.swift */,
-			);
-			path = AuthViewController;
 			sourceTree = "<group>";
 		};
 		846A54D22941ECF300A64B3D /* StudentAuthViewController */ = {
@@ -378,6 +370,14 @@
 				846A54DD2941EE4A00A64B3D /* info.rtfd */,
 			);
 			path = info;
+			sourceTree = "<group>";
+		};
+		849FE3922941F207001B33E9 /* AuthVC */ = {
+			isa = PBXGroup;
+			children = (
+				849FE3932941F21C001B33E9 /* AuthVC.swift */,
+			);
+			path = AuthVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -513,11 +513,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				846A54D42941ECFB00A64B3D /* StudentAuthViewController.swift in Sources */,
-				846A54D02941ECC700A64B3D /* AuthViewController.swift in Sources */,
 				84130A6E29410512000517FB /* AbstractFactory.swift in Sources */,
 				846A54BF2941EBF900A64B3D /* TeacherAuthViewFactory.swift in Sources */,
 				84130A83294113E7000517FB /* ConcreteProductB1.swift in Sources */,
 				846A54B82941EB0300A64B3D /* Client.swift in Sources */,
+				849FE3942941F21C001B33E9 /* AuthVC.swift in Sources */,
 				846A54C72941EC6200A64B3D /* StudentSignUpView.swift in Sources */,
 				84130A7B29411290000517FB /* ConcreteProductA2.swift in Sources */,
 				846A54DB2941ED5C00A64B3D /* ClientCode.swift in Sources */,
